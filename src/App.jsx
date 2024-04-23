@@ -1,12 +1,10 @@
 import Card from './Card.jsx'
+
 function App() {
 
   return (
     <>
-      <div>
-        <Card />
-      </div>
-
+      <Card />
     </>
   )
 }

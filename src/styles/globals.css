@@ -6,16 +6,17 @@
 
 body {
     background-color: #232323;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 1em 2em;
-    font-size: 1.5em;
 }
 
 p {
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500; 
+    font-size: 1em;
 }
