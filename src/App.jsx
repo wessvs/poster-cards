@@ -1,10 +1,12 @@
-import Card from './Card.jsx'
+import Card from "./components/Card"
 
 function App() {
 
   return (
     <>
-      <Card />
+      <div className='app'>
+        <Card />
+      </div>
     </>
   )
 }
