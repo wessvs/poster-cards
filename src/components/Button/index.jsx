@@ -1,5 +1,7 @@
-export default function Button() {
+import styles from './styles.module.css'
+
+export default function Button({ text }) {
     return (
-        <button>Compre agora</button>
+        <button className={styles.wrapper}>{text}</button>
     )
 }
